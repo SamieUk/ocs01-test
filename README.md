@@ -47,14 +47,14 @@ git clone https://github.com/octra-labs/ocs01-test.git
 
 
 
-**You need your "wallet.json" which has your wallet details like the last time in "octra_pre_client" dir**
+**You need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir**
 
 ```bash
 cd octra_pre_client
 cp ./wallet.json ocs01-test
 ```
 
-**if you can't locate wallet.json file, just create one**
+**if you can't locate `wallet.json` file, just create one**
 
 ```bash
 nano wallet.json
@@ -72,11 +72,11 @@ nano wallet.json
 
 ```
 
-**press Ctrl+X, add name "wallet.json" then press "Enter" to save** 
+**press `Ctrl+X`, add name `wallet.json` then press `Enter` to save** 
 
 
 
-**copy "EI/exec_interface.json" file to "ocs01-test". use the following commands**
+**copy `EI/exec_interface.json` file to `ocs01-test`. use the following commands**
 
 ```bash
 # 
@@ -106,3 +106,6 @@ you must copy the release binary to your cli folder and also copy the EI file (e
 *for this task the ei file contains the interface for contract at address octBUHw585BrAMPMLQvGuWx4vqEsybYH9N7a3WNj1WBwrDn, do not modify it*
 
 after running, follow the menu to interact with the contract
+
+
+[link to first week's task](https://github.com/octra-labs/octra_pre_client)
