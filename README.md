@@ -53,7 +53,7 @@ you need your `wallet.json` which has your wallet details like the last time in 
 cd octra_pre_client
 ```
 ```bash
-cp ./wallet.json ocs01-test
+cp ./wallet.json ../ocs01-test
 ```
 
 if you can't locate `wallet.json` file, just create one
