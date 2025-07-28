@@ -94,7 +94,7 @@ cargo build --release
 **RUN TO START**
 
 ```bash
-./target/release/ocs01-test .
+./target/release/ocs01-test
 ```
 
 **TO-DO**
