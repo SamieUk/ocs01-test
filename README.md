@@ -97,6 +97,12 @@ cargo build --release
 ./target/release/ocs01-test .
 ```
 
+** TO-DO **
+
+1. claim 1 test token
+
+2. test all functions of the math contract one by one
+
 
 
 
