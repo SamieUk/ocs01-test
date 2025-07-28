@@ -83,7 +83,7 @@ copy `EI/exec_interface.json` file to `ocs01-test`. use the following commands
 ```bash
 # 
 cd ..
-cd ocs01-test2
+cd ocs01-test
 cp EI/exec_interface.json .
 ```
 
