@@ -25,7 +25,7 @@ source $HOME/.cargo/env
 **check if rust is installed**
 
 ```bash
-rustup --version
+rustc --version
 ```
 
 **Build from source**
