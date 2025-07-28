@@ -51,6 +51,8 @@ you need your `wallet.json` which has your wallet details like the last time in 
 
 ```bash
 cd octra_pre_client
+```
+```bash
 cp ./wallet.json ocs01-test
 ```
 
