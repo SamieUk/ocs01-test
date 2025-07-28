@@ -77,6 +77,7 @@ nano wallet.json
 **you need to copy these files to "ocs01-test". use the following commands**
 
 ```bash
+
 cd ..
 cd ocs01-test2
 cargo build --release
@@ -84,12 +85,6 @@ cp EI/exec_interface.json .
 cp ./target/release/ocs01-test .
 
 ```
-
-```bash
-# copy contract interface
-cp EI/exec_interface.json .
-```
-
 
 
 **RUN TO START**
