@@ -31,7 +31,7 @@ source $HOME/.cargo/env
 ```
 
 
-**Build from source**
+Build from source
 
 ```bash
 git clone https://github.com/octra-labs/ocs01-test.git
@@ -40,28 +40,28 @@ git clone https://github.com/octra-labs/ocs01-test.git
 **SETUP**
 
 
-**required files in same directory**
+required files in same directory
 
 -   wallet.json - create with your credentials
 -   exec_interface.json - copy from EI/ folder
 
 
 
-**You need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir**
+You need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir
 
 ```bash
 cd octra_pre_client
 cp ./wallet.json ocs01-test
 ```
 
-**if you can't locate `wallet.json` file, just create one**
+if you can't locate `wallet.json` file, just create one
 
 ```bash
 nano wallet.json
 ```
 
 
-**copy and edit**
+copy and edit
 
 ```bash
 {
@@ -72,11 +72,11 @@ nano wallet.json
 
 ```
 
-**press `Ctrl+X`, add name `wallet.json` then press `Enter` to save** 
+press `Ctrl+X`, add name `wallet.json` then press `Enter` to save 
 
 
 
-**copy `EI/exec_interface.json` file to `ocs01-test`. use the following commands**
+copy `EI/exec_interface.json` file to `ocs01-test`. use the following commands
 
 ```bash
 # 
@@ -85,19 +85,19 @@ cd ocs01-test2
 cp EI/exec_interface.json .
 ```
 
-**Build**
+*Build*
 
 ```bash
 cargo build --release
 ```
 
-**RUN TO START**
+*RUN TO START*
 
 ```bash
 ./target/release/ocs01-test .
 ```
 
-** TO-DO **
+**TO-DO**
 
 1. claim 1 test token
 
