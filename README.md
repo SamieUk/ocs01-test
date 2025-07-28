@@ -82,11 +82,15 @@ cd ocs01-test2
 cp EI/exec_interface.json .
 ```
 
+**Build**
+
+```bash
+cargo build --release
+```
 
 **RUN TO START**
 
 ```bash
-cargo build --release
 ./target/release/ocs01-test .
 ```
 
