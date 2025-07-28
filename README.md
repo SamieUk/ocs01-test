@@ -22,13 +22,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
 
-**Check if rust is installed**
+**check if rust is installed**
 
 ```bash
 rustup --version
 ```
 
-**build from source**
+**Build from source**
 
 ```bash
 git clone https://github.com/octra-labs/ocs01-test.git
@@ -52,7 +52,7 @@ cd octra_pre_client
 cp ./wallet.json ocs01-test
 ```
 
-**If you can't locate wallet.json file, just create one**
+**if you can't locate wallet.json file, just create one**
 
 ```bash
 nano wallet.json
@@ -70,11 +70,11 @@ nano wallet.json
 
 ```
 
-**Press Ctrl+X, add name "wallet.json" then press "Enter" to save** 
+**press Ctrl+X, add name "wallet.json" then press "Enter" to save** 
 
 
 
-**You need to copy these files to "ocs01-test". use the following commands**
+**you need to copy these files to "ocs01-test". use the following commands**
 
 ```bash
 cp EI/exec_interface.json .
@@ -92,7 +92,7 @@ cp EI/exec_interface.json .
 
 
 
-**run**
+**RUN TO START**
 
 ```bash
 ./ocs01-test
