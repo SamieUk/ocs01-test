@@ -40,7 +40,6 @@ git clone https://github.com/octra-labs/ocs01-test.git
 **required files in same directory**
 
 -   wallet.json - create with your credentials
--   ocs01-test binary in target/release
 -   exec_interface.json - copy from EI/ folder
 
 
@@ -74,24 +73,23 @@ nano wallet.json
 
 
 
-**you need to copy these files to "ocs01-test". use the following commands**
+**copy "EI/exec_interface.json" file to "ocs01-test". use the following commands**
 
 ```bash
-
+# 
 cd ..
 cd ocs01-test2
-cargo build --release
 cp EI/exec_interface.json .
-cp ./target/release/ocs01-test .
-
 ```
 
 
 **RUN TO START**
 
 ```bash
-./ocs01-test
+cargo build --release
+./target/release/ocs01-test .
 ```
+
 
 
 
