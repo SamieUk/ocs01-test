@@ -31,7 +31,7 @@ source $HOME/.cargo/env
 ```
 
 
-Build from source
+build from source
 
 ```bash
 git clone https://github.com/octra-labs/ocs01-test.git
@@ -47,7 +47,7 @@ required files in same directory
 
 
 
-You need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir
+you need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir
 
 ```bash
 cd octra_pre_client
@@ -85,13 +85,13 @@ cd ocs01-test2
 cp EI/exec_interface.json .
 ```
 
-**Build**
+build
 
 ```bash
 cargo build --release
 ```
 
-*RUN TO START*
+**RUN TO START**
 
 ```bash
 ./target/release/ocs01-test .
@@ -99,9 +99,9 @@ cargo build --release
 
 **TO-DO**
 
-1. claim 1 test token
+1. `claim 1 test token`
 
-2. test all functions of the math contract one by one
+2. `test all functions of the math contract one by one`
 
 
 
