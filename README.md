@@ -80,7 +80,7 @@ nano wallet.json
 cd ..
 cd ocs01-test2
 cp EI/exec_interface.json .
-cp ./target/release/ocs01-test .
+cp ./target/release/ocs01-test2 .
 
 ```
 
