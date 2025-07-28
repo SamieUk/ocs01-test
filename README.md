@@ -77,10 +77,9 @@ nano wallet.json
 **you need to copy these files to "ocs01-test". use the following commands**
 
 ```bash
+cd ..
+cd ocs01-test2
 cp EI/exec_interface.json .
-```
-
-```bash
 cp ./target/release/ocs01-test .
 
 ```
