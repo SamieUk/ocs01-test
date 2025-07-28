@@ -15,6 +15,14 @@ rust cli for testing ocs01 smart contract
 -   macos
 -   windows
 
+
+**check if rust is installed**
+
+```bash
+rustc --version
+```
+
+
 **install rust (if not installed)**
 
 ```bash
@@ -22,11 +30,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 ```
 
-**check if rust is installed**
-
-```bash
-rustc --version
-```
 
 **Build from source**
 
