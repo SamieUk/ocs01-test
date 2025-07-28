@@ -85,7 +85,7 @@ cd ocs01-test2
 cp EI/exec_interface.json .
 ```
 
-*Build*
+** Build **
 
 ```bash
 cargo build --release
