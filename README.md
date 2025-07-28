@@ -54,9 +54,10 @@ cd octra_pre_client
 ```
 ```bash
 cp ./wallet.json ../ocs01-test
+cd ../ocs01-test
 ```
 
-if you can't locate `wallet.json` file, just create one
+if you can't locate `wallet.json` file, just create one in `ocs01-test` dir
 
 ```bash
 nano wallet.json
@@ -78,12 +79,9 @@ press `Ctrl+X`, add name `wallet.json` then press `Enter` to save
 
 
 
-copy `EI/exec_interface.json` file to `ocs01-test`. use the following commands
+copy `EI/exec_interface.json` file to `ocs01-test`. use the following command
 
 ```bash
-# 
-cd ..
-cd ocs01-test
 cp EI/exec_interface.json .
 ```
 
