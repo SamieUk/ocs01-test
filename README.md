@@ -47,7 +47,7 @@ required files in same directory
 
 
 
-you need your `wallet.json` which has your wallet details like the last time in "octra_pre_client" dir
+you need your `wallet.json` file which has your wallet details like the last time in "octra_pre_client" dir
 
 ```bash
 cd octra_pre_client
